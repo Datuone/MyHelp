@@ -1,0 +1,4 @@
+    public static class TextValidationService
+    {
+        public static TextValidator TextRules(this string text, string sourceName) => new TextValidator(text, sourceName);
+    }

@@ -1,0 +1,17 @@
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="10" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="10" />
+        </Grid.RowDefinitions>
+        <TextBlock Text="Точка проката «Эльбрус»" Grid.Column="1" TextAlignment="Center" VerticalAlignment="Center"
+                   FontSize="34" />
+
+        <Frame x:Name="frame_main" Grid.Row="1" Grid.Column="1" NavigationUIVisibility="Hidden" />
+
+    </Grid>
